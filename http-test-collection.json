@@ -1,0 +1,75 @@
+{
+	"info": {
+		"name": "API Tareas MVC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Obtener todas las tareas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": { "raw": "http://localhost:3000/api/tareas", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas"] }
+			}
+		},
+		{
+			"name": "2. Buscar tarea por titulo (Extra)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": { "raw": "http://localhost:3000/api/tareas/buscar?q=express", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas", "buscar"], "query": [ { "key": "q", "value": "express" } ] }
+			}
+		},
+		{
+			"name": "3. Obtener todas formato texto (Extra)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": { "raw": "http://localhost:3000/api/tareas?formato=text", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas"], "query": [ { "key": "formato", "value": "text" } ] }
+			}
+		},
+		{
+			"name": "4. Obtener tarea por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": { "raw": "http://localhost:3000/api/tareas/1", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas", "1"] }
+			}
+		},
+		{
+			"name": "5. Crear nueva tarea",
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Content-Type", "value": "application/json" } ],
+				"body": { "mode": "raw", "raw": "{\n    \"titulo\": \"Nueva tarea creada desde Postman\",\n    \"completada\": false\n}" },
+				"url": { "raw": "http://localhost:3000/api/tareas", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas"] }
+			}
+		},
+		{
+			"name": "6. Actualizar completamente (PUT)",
+			"request": {
+				"method": "PUT",
+				"header": [ { "key": "Content-Type", "value": "application/json" } ],
+				"body": { "mode": "raw", "raw": "{\n    \"titulo\": \"Tarea actualizada por completo\",\n    \"completada\": true\n}" },
+				"url": { "raw": "http://localhost:3000/api/tareas/1", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas", "1"] }
+			}
+		},
+		{
+			"name": "7. Actualizar parcialmente (PATCH)",
+			"request": {
+				"method": "PATCH",
+				"header": [ { "key": "Content-Type", "value": "application/json" } ],
+				"body": { "mode": "raw", "raw": "{\n    \"completada\": true\n}" },
+				"url": { "raw": "http://localhost:3000/api/tareas/2", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas", "2"] }
+			}
+		},
+		{
+			"name": "8. Eliminar tarea",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": { "raw": "http://localhost:3000/api/tareas/3", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "tareas", "3"] }
+			}
+		}
+	]
+}
