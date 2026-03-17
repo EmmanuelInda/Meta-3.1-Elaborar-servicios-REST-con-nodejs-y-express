@@ -50,16 +50,22 @@ El servidor estará escuchando en `http://localhost:3000`.
 A continuación se muestran las evidencias de funcionamiento de los endpoints utilizando Postman / Thunder Client:
 
 ### 1\. Obtener todas las tareas (GET)
+![alt text](image.png)
 
 ### 2\. Buscar por título (GET Extra)
+![alt text](image-1.png)
 
 ### 3\. Crear una nueva tarea (POST)
+![alt text](image-2.png)
 
 ### 4\. Actualizar tarea completamente (PUT)
+![alt text](image-3.png)
 
 ### 5\. Actualizar tarea parcialmente (PATCH)
+![alt text](image-4.png)
 
 ### 6\. Eliminar tarea (DELETE)
+![alt text](image-5.png)
 
 ```
 ```
