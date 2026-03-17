@@ -1,4 +1,3 @@
-````markdown
 # API REST de Gestión de Tareas (MVC)
 
 **Autor:** Jesús Emmanuel Inda Campos
