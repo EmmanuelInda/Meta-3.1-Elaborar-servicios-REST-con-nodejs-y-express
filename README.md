@@ -68,4 +68,3 @@ A continuación se muestran las evidencias de funcionamiento de los endpoints ut
 ![alt text](image-5.png)
 
 ```
-```
