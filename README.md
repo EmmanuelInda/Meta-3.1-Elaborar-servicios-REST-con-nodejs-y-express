@@ -66,5 +66,3 @@ A continuación se muestran las evidencias de funcionamiento de los endpoints ut
 
 ### 6\. Eliminar tarea (DELETE)
 ![alt text](image-5.png)
-
-```
