@@ -52,7 +52,7 @@ A continuación se muestran las evidencias de funcionamiento de los endpoints ut
 ### 1\. Obtener todas las tareas (GET)
 ![alt text](image.png)
 
-### 2\. Buscar por título (GET Extra)
+### 2\. Obtiene los detalles de una tarea específica por su ID (GET)
 ![alt text](image-1.png)
 
 ### 3\. Crear una nueva tarea (POST)
@@ -66,3 +66,9 @@ A continuación se muestran las evidencias de funcionamiento de los endpoints ut
 
 ### 6\. Eliminar tarea (DELETE)
 ![alt text](image-5.png)
+
+### 7\. Obtiene todas las tareas en formato de texto plan (GET extra)
+![alt text](image-6.png)
+
+### 8\. Busca tareas que contengan el término en su título (GET extra)
+![alt text](image-7.png)
