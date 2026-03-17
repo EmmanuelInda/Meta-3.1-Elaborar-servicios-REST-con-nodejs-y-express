@@ -18,9 +18,9 @@ Esta es una API RESTful desarrollada con Node.js y Express para la gestión de t
 1. Clonar el repositorio.
 2. Abrir una terminal en la carpeta del proyecto.
 3. Instalar las dependencias de Node.js:
-   ```bash
+```bash
    npm install
-````
+```
 
 ## Cómo Ejecutar el Servidor
 
